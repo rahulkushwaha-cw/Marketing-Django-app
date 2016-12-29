@@ -17,23 +17,23 @@ ALLOWED_HOSTS = ['*']
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+# PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
-STATIC_URL = '/static/'
+# STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static','static_root')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static','static_root')
 
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static','static_dirs'),
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, 'static','static_dirs'),
 
-)
+# )
 
-MEDIA_ROOT = os.path.join(PROJECT_ROOT, 'static','media')
+# MEDIA_ROOT = os.path.join(PROJECT_ROOT, 'static','media')
 
-MEDIA_URL = '/media/'
+# MEDIA_URL = '/media/'
 
 
-# # Simplified static file serving.
-# # https://warehouse.python.org/project/whitenoise/
+# # # Simplified static file serving.
+# # # https://warehouse.python.org/project/whitenoise/
 
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
